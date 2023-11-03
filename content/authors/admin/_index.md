@@ -1,5 +1,5 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
+bio: My research interests include building econometric models in R as well as macroeconomic modelling. 
   matter.
 education:
   courses:
@@ -15,7 +15,7 @@ education:
 first_name: Tshidiso
 highlight_name: true
 interests:
-- Macroeconnomic modelling
+- Macroeconomic modelling
 - R programming
 - Building Econometric models
 last_name: Mofokeng
@@ -33,7 +33,7 @@ social:
   link: https://www.linkedin.com/in/tshidiso-mofokeng-0562861b4/
 - icon: cv
   icon_pack: ai
-  link: content/TSHIDISOMOFOKENG.pdf
+  url_pdf: "/resume.pdf"
 status:
   icon: ☕️
 superuser: true

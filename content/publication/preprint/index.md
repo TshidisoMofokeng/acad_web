@@ -1,48 +1,15 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed
-  ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis
-  sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida
-  egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id
-  dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.
-  Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Power relationships between the king, military, and political parties define Thailand’s political landscape. Even though democracy has made small strides, the military continues to have a big influence, which limits the impact of political parties. Due to the economy’s substantial reliance on tourism, which was negatively hit by the COVID-19 pandemic, structural inefficiencies have been highlighted which consequently reflect in the economy’s sluggish growth. Although inflation rates have remained stable, events like oil price shocks and geopolitical unrest might also hinder economic growth. Effective debt management solutions are required because rising public debt raises questions about the sustainability of the economy. Long-term hazards posed by cyber security attacks highlight the need for better data security procedures. Political reforms, economic diversification, responsible fiscal management, and improved cyber security and national security capabilities are all necessary to address these issues. 
 authors:
-- admin
-date: "2019-04-07T00:00:00Z"
-doi: ""
-featured: false
+- Tshidiso Mofokeng
+date: "04/07/2023"
+featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ""
   preview_only: false
-links:
-- name: Custom Link
-  url: http://example.org
-projects:
-- internal-project
-publication: ""
-publication_short: ""
-publication_types:
-- article
-publishDate: "2017-01-01T00:00:00Z"
-slides: example
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-tags:
-- Source Themes
-title: An example preprint / working paper
-url_code: https://github.com/wowchemy/wowchemy-hugo-themes
-url_dataset: '#'
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_poster: '#'
-url_project: ""
-url_slides: ""
-url_source: '#'
-url_video: '#'
+publishDate: "2023-07-01T00:00:00Z"
+summary: Power relationships between the king, military, and political parties define Thailand’s political landscape.
+title: Political risk analysis in Thailand
+url_pdf: "/political-risk.pdf"
 ---
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://wowchemy.com/docs/content/writing-markdown-latex/).
