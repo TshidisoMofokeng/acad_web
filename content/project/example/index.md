@@ -9,10 +9,10 @@ links:
   icon_pack: fab
   name: Follow
   url: https://www.linkedin.com/in/tshidiso-mofokeng-0562861b4/
-summary: Coming soon!.
+summary: Coming soon!
 tags:
 - Deep Learning
-title: Macro modelling Project
+title: Macro modelling project
 url_code: ""
 url_pdf: ""
 url_slides: ""
