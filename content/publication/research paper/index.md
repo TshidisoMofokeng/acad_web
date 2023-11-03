@@ -11,6 +11,6 @@ image:
 publishDate: "2023-10-01T00:00:00Z"
 summary: This study extends the limited evidence on access to credit in South Africa. We investigate the role that demographics and the transactional behaviour at individual level play in influencing the probability of gaining access to different types of credit.
 title: Drivers of access to credit in South Africa
-
+url_pdf: "/Research_Paper.pdf"
 ---
 

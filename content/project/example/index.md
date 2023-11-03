@@ -9,6 +9,10 @@ links:
   icon_pack: fab
   name: Follow
   url: https://www.linkedin.com/in/tshidiso-mofokeng-0562861b4/
+- icon: instagram
+  icon_pack: fab
+  name: Follow
+  url: https://www.instagram.com/tshidis_o/
 summary: Coming soon!
 tags:
 - Deep Learning

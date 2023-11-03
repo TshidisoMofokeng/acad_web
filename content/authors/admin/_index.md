@@ -27,13 +27,17 @@ role: Student at University of Pretoria
 social:
 - icon: envelope
   icon_pack: fas
-  link: /#contact
+  link: mailto:tshidiso.b.m@gmail.com
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/tshidiso-mofokeng-0562861b4/
+- icon: instagram
+  icon_pack: fab
+  name: Follow
+  url: https://www.instagram.com/tshidis_o/
 - icon: cv
   icon_pack: ai
-  url_pdf: "/resume.pdf"
+  url_pdf: "/TSHIDISOMOFOKENG_CV.pdf"
 status:
   icon: ☕️
 superuser: true
