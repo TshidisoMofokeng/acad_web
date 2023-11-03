@@ -8,6 +8,8 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ""
   preview_only: false
+publication_types:
+- academic paper
 publishDate: "2023-05-01T00:00:00Z"
 summary: Land reform is a crucial component of South Africa’s economic strategy if it is to remedy past injustices and realise a future of inclusive economic growth and social stability. This paper provides a comprehensive study of the Land Reform Policy of South Africa
 title: Land Reform in South Africa

@@ -9,6 +9,8 @@ image:
   focal_point: ""
   preview_only: false
 publishDate: "2023-07-01T00:00:00Z"
+publication_types:
+- report
 summary: Power relationships between the king, military, and political parties define Thailand’s political landscape.
 title: Political risk analysis in Thailand
 url_pdf: "/political-risk.pdf"
