@@ -35,9 +35,6 @@ social:
   icon_pack: fab
   name: Follow
   url: https://www.instagram.com/tshidis_o/
-- icon: cv
-  icon_pack: ai
-  url: /TSHIDISOMOFOKENG_CV.pdf
 status:
   icon: ☕️
 superuser: true
