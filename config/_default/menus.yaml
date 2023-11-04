@@ -10,10 +10,46 @@ main:
   - name: Working Papers
     url: '#featured'
     weight: 50
-
+  - name: CV
+    url: uploads/TSHIDISOMOFOKENG_CVV.pdf #spell CV and not CVV
+    weight: 50
+  - name: Reach
+    url: '/reach'
+    weight: 40
+  - name: Projects
+    url: '/project'
+    weight: 50
+  - name: Working Papers
+    url: '/publication'
+    weight: 50
+  - name: Blog
+    url: '/post'
+    weight: 50
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV
 #    url: uploads/resume.pdf
 #    weight: 70
+
+
+# try figuring out how to add this to the project webpage 
+# - block: portfolio
+#  content:
+ #   buttons:
+  #  - name: All
+   #   tag: '*'
+    #- name: Deep Learning
+#      tag: Deep Learning
+ #   - name: Other
+  #    tag: Demo
+   # default_button_index: 0
+    #filters:
+     # folders:
+      #- project
+#    title: Projects
+ # design:
+  #  columns: "1"
+   # flip_alt_rows: false
+    #view: showcase
+  #id: projects

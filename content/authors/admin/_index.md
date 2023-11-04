@@ -37,7 +37,7 @@ social:
   url: https://www.instagram.com/tshidis_o/
 - icon: cv
   icon_pack: ai
-  url_pdf: "/TSHIDISOMOFOKENG_CV.pdf"
+  url: /TSHIDISOMOFOKENG_CV.pdf
 status:
   icon: ☕️
 superuser: true

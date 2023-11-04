@@ -1,0 +1,49 @@
+---
+output:   
+  html_document: 
+    df_print: paged
+---
+# Research Papers
+
+## Drivers of access to credit in South Africa
+
+This study extends the limited evidence on access to credit in South Africa. We investigate the role that demographics and the transactional behaviour at individual level play in influencing the
+probability of gaining access to different types of credit. We make use of recent data from the FinScopeSA 2019 Consumer Survey. We estimate a multinomial logit choice model to establish the
+influence of various covariates on the likelihood of an individual gaining access to formal, informal, and a combination of formal and informal credit with our reference category being those who have no access to credit. We find that age, income, higher educational attainment, living in Gauteng or Free State and higher LSM being statistically significant, increasing an individual likelihood for access to formal credit. Furthermore, we find that age, income, employment status, remittances, and LSM being positive and statistically significant at increasing the probability of individuals having access to the combination of formal and informal credit. On the other hand, Indian or Asian individuals, employments status and remittances lowered the likelihood of an individual having access to formal credit. Compared to being male for the combination of formal and informal credit.
+
+* [Drivers of access to credit in South Africa](content/Research_Paper.pdf)  
+
+## Political Risk Analysis in Thailand
+
+Power relationships between the king, military, and political parties define Thailand's political landscape. Even though democracy has made small strides, the military continues to have a big influence, which limits the impact of political parties. Due to the economy's substantial reliance on tourism, which was negatively hit by the COVID-19 pandemic, structural inefficiencies have been highlighted which consequently reflect in the economy's sluggish growth. Although inflation rates have remained stable, events like oil price shocks and geopolitical unrest might also hinder economic growth. Effective debt management solutions are required because rising public debt raises questions about the sustainability of the economy. Long-term hazards posed by cyber security attacks highlight the need for better data security procedures. Political reforms, economic diversification, responsible fiscal management, and improved cyber security and national security capabilities are all necessary to address these issues
+
+* [Political Risk Analysis in Thailand](content/Political Risk Project.pdf)
+
+
+## The Equity Investment Prospects for Brazil
+
+* [The Equity Investment Prospects for Brazil](content/Equity Prospects in Brazil.pdf)
+
+## Economic Policy Report for Emerging Countries
+
+Analyses on the independent issues such as the suitability of inflation targeting in emerging markets, the role of fiscal policy in stabilizing the economy. The effect of debt accumulation on macroeconomic stability, how participation on international capital market constraints national economic policies, and how monetary and fiscal policy can be coordinated.
+
+* [Economic Policy Report for Emerging Countries](content/Economic Policy Report.pdf)
+
+## Land Reform in South Africa
+
+Land reform is a crucial component of South Africa’s economic strategy if it is to remedy past 
+injustices and realise a future of inclusive economic growth and social stability. This paper 
+provides a comprehensive study of the Land Reform Policy of South Africa, starting with an 
+exploration of the historical and socio-economic context. In particular, we discuss the three 
+pillars of land reform and the progression of the laws that led to the Land Reform Policy that 
+exists today. We discuss the aspects of the policy’s effectiveness, drawing on the strengths and 
+weaknesses of the policy, as well as the unintended consequences that have arisen. We propose 
+alternative solutions and improvements for the policy, deduced from the analysis of several 
+case studies and insights from other countries. Opposing views are also put forward, providing 
+a well-rounded argument and allowing for the different perspectives of all stakeholders to be 
+considered in the study. We find that the Policy has the potential to be extremely effective if 
+those in power will take heed of the recommendations and improvements that may be vital in 
+propelling the Policy to reach its targets
+
+* [Land Reform in South Africa](content/Land Reform in South Africa.pdf)
