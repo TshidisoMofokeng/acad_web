@@ -40,5 +40,5 @@ status:
 superuser: true
 ---
 
-Tshidiso is an aspiring economist who currently holds a undergraduate degree at the University of Pretoria in BCom Econometrics. He has also recently completed a 10 week exchange student program at Fordham University in Emerging Markets and Country Risk Analysis within the field of International Political Economy & Development in New York.
+Tshidiso is an aspiring economist who currently holds an undergraduate degree at the University of Pretoria in BCom Econometrics. He has also recently completed a 10 week exchange student program at Fordham University in Emerging Markets and Country Risk Analysis within the field of International Political Economy & Development in New York.
 {style="text-align: justify;"}
