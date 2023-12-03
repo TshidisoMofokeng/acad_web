@@ -104,7 +104,7 @@ H<sub>o</sub>: Number of cointegrating vectors is at most equal to 0
   
 H<sub>a</sub>: The number of cointegrating vectors is greater than 0  
 
-According to figure 7, with respect to the trace test, we note that the p-value = 0.0005 &leq 0.05 for this reason we fail to reject the null of zero cointegrating vectors. In addition, for the maximum eigenvalue test, we also note that the p-value = 0.0023 &leq 0.05 and for this reason as well we reject the null of zero cointegrating vectors.
+According to figure 7, with respect to the trace test, we note that the p-value = 0.0005 ≤ 0.05 for this reason we fail to reject the null of zero cointegrating vectors. In addition, for the maximum eigenvalue test, we also note that the p-value = 0.0023 ≤ 0.05 and for this reason as well we reject the null of zero cointegrating vectors.
 
   
 H<sub>o</sub>: Number of cointegrating vectors is at most equal to 1  
@@ -112,7 +112,7 @@ H<sub>o</sub>: Number of cointegrating vectors is at most equal to 1
   
 H<sub>a</sub>: The number of cointegrating vectors is greater than 1  
 
-However, for the trace test defining our null hypothesis for at most 1 cointegrating vector. We find that, the p-value = 0.0550 &geq 0.05 meaning we fail to reject the null hypothesis 1 cointegrating vectors in favour of 2 cointegrating vectors. Similarly for the maximum eigenvalue test, we fail to reject the null hypothesis 1 cointegrating vectors in favour of 2 cointegrating vectors. Thus, there exists one unique cointegrating vector between natural log of spot nominal bilateral rand-US dollar exchange rate, broad money (M3) differential and the income differential.
+However, for the trace test defining our null hypothesis for at most 1 cointegrating vector. We find that, the p-value = 0.0550 ≥ 0.05 meaning we fail to reject the null hypothesis 1 cointegrating vectors in favour of 2 cointegrating vectors. Similarly for the maximum eigenvalue test, we fail to reject the null hypothesis 1 cointegrating vectors in favour of 2 cointegrating vectors. Thus, there exists one unique cointegrating vector between natural log of spot nominal bilateral rand-US dollar exchange rate, broad money (M3) differential and the income differential.
 
 <figure>
 <img src="/VECM/q8.png" alt="Figure 7: Unrestricted Cointegration Rank Test " />
