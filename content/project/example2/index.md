@@ -2,20 +2,6 @@
 title: "Vector Error Correction Model"
 author: "Tshidiso Mofokeng"
 date: "2023-12-03T21:13:14-05:00"
-output:
-  pdf_document:
-    pandoc_args:
-    - "--variable=geometry:margin=1in"
-    - "--variable=fontsize:12pt"
-    - "--variable=mainfont:Times New Roman"
-    - "--variable=classoption:justified"
-    - "--variable=setspace:stretch=2"
-    - "--variable=line-height:2"
-  html_document:
-    df_print: paged
-summary: Application of flexible price monetary model to model the long-run steady-state
-bibliography: "c:/users/user/onedrive - university of pretoria/tuks/honours/ekt 724/part
-  2/project 2/export.bib"
 links:
 - icon: linkedin
   icon_pack: fab
@@ -25,8 +11,15 @@ links:
   icon_pack: fab
   name: Follow
   url: https://www.instagram.com/tshidis_o/
+summary: Application of flexible price monetary model to model the long-run steady-state
+tags:
+- Deep Learning
 link-citations: yes
 urlcolor: black
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
 ---
 
 # VECM applied to the South African Rand-US dollar exchange rate
