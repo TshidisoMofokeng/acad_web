@@ -1,17 +1,14 @@
 ---
 featured: true
+image:
 authors:
 - Tshidiso Mofokeng
 date: "2023-12-03T21:13:14-05:00"
-external_link: ""
 summary: Building a benchmark DGE model, incorporating a utility function with two state variables, and presenting the Impulse Response Functions in linearised and log-linearised forms
 tags:
 - Deep Learning
 title: Decentralized Dynamic General Equilibrium Modeling
-url_code: ""
 url_pdf: "/Decentralized Dynamic General Equilibrium Modeling.pdf"
-url_slides: ""
-url_video: ""
 ---
 
 This paper investigates contemporary macroeconomics by developing a decentralized dynamic general equilibrium model in MATLAB using Dynare. It focuses on micro-founded technique for
