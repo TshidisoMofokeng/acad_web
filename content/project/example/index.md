@@ -13,10 +13,10 @@ links:
   icon_pack: fab
   name: Follow
   url: https://www.instagram.com/tshidis_o/
-summary: Coming soon!
+summary: Building a benchmark DGE model, incorporating a utility function with two state variables, and present Impulse Response Functions in linearised and log-linearised forms
 tags:
 - Deep Learning
-title: Macro modelling project
+title: Decentralized Dynamic General Equilibrium Modeling
 url_code: ""
 url_pdf: ""
 url_slides: ""

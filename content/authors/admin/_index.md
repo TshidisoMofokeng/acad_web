@@ -1,5 +1,5 @@
 ---
-bio: My research interests include building econometric models in R as well as macroeconomic modelling. 
+bio: Research interests include building econometric models in R as well as macroeconomic modelling. 
   matter.
 education:
   courses:

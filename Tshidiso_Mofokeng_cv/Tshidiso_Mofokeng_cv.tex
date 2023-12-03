@@ -1,0 +1,192 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\colorlet{awesome}{awesome-red}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Tshidiso}{Mofokeng}
+
+\position{Student}
+
+\email{\href{mailto:tshidiso.b.m@gmail.com}{\nolinkurl{tshidiso.b.m@gmail.com}}}
+\homepage{\url{https://tmofokeng.netlify.app/}}
+\linkedin{\url{https://www.linkedin.com/in/tshidiso-mofokeng-0562861b4/}}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{2em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {November 2023}
+    {Tshidiso Mofokeng~~~·~~~Curriculum Vitae}
+  {\thepage~ of \pageref{LastPage}~}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+I am a Teaching Assistant in the Astronomy Department and am passionate
+about playing a positive role in shaping the new generation of
+astronomers.
+
+\begin{cventries}
+    \cventry{PhD. Candidate, Astronomy}{Michigan State University}{Michigan, USA}{2019-Present}{\begin{cvitems}
+\item My thesis focuses on using multi-wavelength observations of comets
+\item Teaching Assistant, Astronomy 101
+\end{cvitems}}
+    \cventry{BSc, Astronomy}{Michigan State University}{Michigan, USA}{2015-2019}{\begin{cvitems}
+\item GPA 4.0
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{research-experience}{%
+\section{Research experience}\label{research-experience}}
+
+\begin{cventries}
+    \cventry{Graduate Researcher}{Michigan State University}{Michigan, USA}{2019--Present}{\begin{cvitems}
+\item My thesis focuses on using multi-wavelength observations of comets to better understand the risk of comets striking Earth
+\item I am involved in the analysis of comet orbital speed and size calculations to estimate their risk of approaching Earth
+\end{cvitems}}
+    \cventry{Undergraduate Researcher}{Michigan State University}{Michigan, USA}{2015--2019}{\begin{cvitems}
+\item During my undergrad, I didn't discover any dangerous comets, but I did acquire very useful skills for undertaking orbital calculations
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{industry-experience}{%
+\section{Industry experience}\label{industry-experience}}
+
+\begin{cventries}
+    \cventry{Position title}{Location}{Institution}{2010--2012}{\begin{cvitems}
+\item Description 1 bullet point goes here
+\item Note that you can add a Description 2 bullet point by having the same information for all other fields
+\item Note that you can add a Description 3 bullet point by having the same information for all other fields
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{leadership-experience}{%
+\section{Leadership experience}\label{leadership-experience}}
+
+\begin{cventries}
+    \cventry{TV Interview on ``The Daily Rip'' about my comet discovery}{}{Washington DC}{2022}{\begin{cvitems}
+\item Invited for a TV interview on the popular TV show ``The Daily Rip'' hosted by Jack and Brie
+\item I appeared on the same segment as the news on Ariana Grande's and DJ Chello's breakup
+\end{cvitems}}
+\end{cventries}
+
+\newpage
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+
+\hypertarget{bibliography}{}
+\leavevmode\vadjust pre{\hypertarget{ref-fake-paper}{}}%
+\CSLLeftMargin{1. }%
+\CSLRightInline{Dibiasky, K., \& Mindy, R. (2022). Discovery of a novel
+comet, Comet Dibiasky, heading towards earth. \emph{Nature},
+\emph{Accepted}.}
+
+
+\label{LastPage}~
+\end{document}
