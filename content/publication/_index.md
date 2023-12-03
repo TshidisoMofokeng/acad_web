@@ -4,5 +4,5 @@ banner:
   image: ""
 cms_exclude: true
 title: Working Papers
-view: 4
+view: 2
 ---
