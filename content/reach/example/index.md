@@ -1,9 +1,9 @@
 ---
-date: "2023-12-03T21:13:14-05:00"
+authors:
+- Tshidiso Mofokeng
+featured: true
+date: "2023-11-16T21:13:14-05:00"
 external_link: ""
-image:
-  caption: Photo by rawpixel on Unsplash
-  focal_point: Smart
 summary: Building a benchmark DGE model, incorporating a utility function with two state variables, and present Impulse Response Functions in linearised and log-linearised forms
 tags:
 - Deep Learning
