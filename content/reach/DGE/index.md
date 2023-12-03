@@ -1,5 +1,7 @@
 ---
 featured: true
+authors:
+- Tshidiso Mofokeng
 date: "2023-12-03T21:13:14-05:00"
 external_link: ""
 summary: Building a benchmark DGE model, incorporating a utility function with two state variables, and presenting the Impulse Response Functions in linearised and log-linearised forms
