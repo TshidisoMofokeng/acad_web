@@ -1,4 +1,5 @@
 ---
+featured: true
 date: "2023-12-03T21:13:14-05:00"
 external_link: ""
 image:
@@ -7,7 +8,7 @@ image:
 summary: Application of flexible price monetary model to model the long-run steady-state.
 tags:
 - Deep Learning
-title: VECM applied to the South African Rand-US dollar exchange rate
+title: VECM applied to the South African Rand-US dollar exchange rate 
 ---
 
 # VECM applied to the South African Rand-US dollar exchange rate
