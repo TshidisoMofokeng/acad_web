@@ -13,7 +13,7 @@ main:
   - name: CV
     url: uploads/TSHIDISOMOFOKENG_CVV.pdf #spell CV and not CVV
     weight: 50
-  - name: Projects
+  - name: Project
     url: '/reach'
     weight: 50
   - name: Working Papers
