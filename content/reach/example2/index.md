@@ -1,4 +1,5 @@
 ---
+featured: true
 title: "Vector Error Correction Model"
 author: "Tshidiso Mofokeng"
 date: "2023-12-03T21:13:14-05:00"
