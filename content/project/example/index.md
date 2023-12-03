@@ -1,5 +1,5 @@
 ---
-date: "2016-04-27T00:00:00Z"
+date: "2023-12-03T21:13:14-05:00"
 external_link: ""
 image:
   caption: Photo by rawpixel on Unsplash
@@ -14,4 +14,9 @@ url_slides: ""
 url_video: ""
 ---
 
-Project brief to be uploaded soon :)
+This paper investigates contemporary macroeconomics by developing a decentralized dynamic general equilibrium model in MATLAB using Dynare. It focuses on micro-founded technique for
+modeling real-world business cycles and addresses constraints to understanding and predict economic phenomena. The paper further builds a benchmark DGE model, incorporating a utility
+function with two state variables, and presents Impulse Response Functions in linearised and loglinearised forms. This offers insights into economic implications of a shock to technology on various
+macroeconomic variables. The findings were that output, consumption, investment, labour, the
+rental rate of capital and wages increased in response to a 1% shock in technology. Whereas, the
+marginal utility of consumption and leisure subsided in response to a 1% shock in technology.
