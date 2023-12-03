@@ -7,6 +7,9 @@ main:
   - name: About me
     url: '#about'
     weight: 10
+  - name: Working Papers
+    url: '#featured'
+    weight: 50
   - name: CV
     url: uploads/TSHIDISOMOFOKENG_CVV.pdf #spell CV and not CVV
     weight: 50
@@ -19,10 +22,7 @@ main:
   - name: Blog
     url: '/post'
     weight: 50
-  - name: Blog
-    url: '#post'
-    weight: 50
-    
+
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV
