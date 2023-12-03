@@ -1,17 +1,13 @@
 ---
-date: "2023-12-03T21:13:14-05:00"
+date: "2016-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Photo by Toa Heftiba on Unsplash
   focal_point: Smart
-summary: Application of flexible price monetary model to model the long-run steady-state.
+summary: VECM
 tags:
-- Deep Learning
-title: Vector Error Correction Model
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
+- Demo
+title: VECM
 ---
 
 # VECM applied to the South African Rand-US dollar exchange rate
