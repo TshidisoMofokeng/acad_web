@@ -3,8 +3,6 @@ cms_exclude: true
 header:
   caption: ""
   image: ""
-title: Reach
+title:
 view: 2
 ---
-
-Coming soon :)
