@@ -4,10 +4,10 @@ external_link: ""
 image:
   caption: Photo by Toa Heftiba on Unsplash
   focal_point: Smart
-summary: An example of linking directly to an external project website using `external_link`.
+summary: Application of flexible price monetary model to model the long-run steady-state.
 tags:
 - Deep Learning
-title: VECM
+title: VECM applied to the South African Rand-US dollar exchange rate
 ---
 
 # VECM applied to the South African Rand-US dollar exchange rate
