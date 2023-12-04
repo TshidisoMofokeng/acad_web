@@ -1,7 +1,6 @@
 ---
 abstract: 
 authors:
-- Tshidiso Mofokeng
 date: "25/10/2023"
 featured: true
 image:

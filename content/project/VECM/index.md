@@ -27,7 +27,7 @@ The above theoretical specification relies on three assumptions:
 
 - Similar production structures in the home and foreign country.
 
-We will implement the above model specification over the sample period 1979  2022 at an annual frequency. The variables included in the model include:
+We will implement the above model specification over the sample period 1979 2022 at an annual frequency. The variables included in the model include:
 
 - lrd = natural log of the spot nominal bilateral rand-US dollar exchange rate
 
