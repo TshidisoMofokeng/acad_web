@@ -13,7 +13,7 @@ title: VECM applied to the South African Rand-US dollar exchange rate
 
 We use the flexible price monetary model specified as:
 
-e<sub>t</sub> = B<sub>1</sub>(m<sub>t</sub> - m<sub>t</sub>\* ) + B<sub>2</sub>(y<sub>t</sub> - y<sub>t</sub>\*),  B<sub>1</sub> \> 0  and  B<sub>2</sub> \< 0
+e<sub>t</sub> = B<sub>1</sub>(m<sub>t</sub> - m<sub>t</sub>\*) + B<sub>2</sub>(y<sub>t</sub> - y<sub>t</sub>\*),  B<sub>1</sub> \> 0  and  B<sub>2</sub> \< 0
 
 to model the long-run steady-state or equilibrium relationship, where e<sub>t</sub> is the log of the spot nominal bilateral rand-US dollar exchange rate, m<sub>t</sub> - m<sub>t</sub>\* represents the nominal M3 money differential and y<sub>t</sub> - y<sub>t</sub>\* represents the real income differential.
 
