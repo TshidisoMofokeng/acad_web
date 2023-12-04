@@ -2,7 +2,7 @@
 date: "2023-12-03T00:00:00Z"
 external_link: ""
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: 
   focal_point: Smart
 summary: Application of flexible price monetary model to model the long-run steady-state.
 tags:
@@ -10,7 +10,6 @@ tags:
 title: VECM applied to the South African Rand-US dollar exchange rate
 ---
 
-# VECM applied to the South African Rand-US dollar exchange rate
 
 We use the flexible price monetary model specified as:
 
@@ -28,6 +27,26 @@ The above theoretical specification relies on three assumptions:
 
 - Similar production structures in the home and foreign country.
 
+We will implement the above model specification over the sample period 1979  2022 at an annual frequency. The variables included in the model include:
+
+- lrd = natural log of the spot nominal bilateral rand-US dollar exchange rate
+
+- lrgdp = income differential, calculated as the log ratio of the real GDP of South Africa and the real GDP of the US
+
+- lm3 = broad money differential, calculated as the log ratio of M3 money balance for South Africa to the M3 money balance of the US
+
+- rs = interest rate differential, calculated as the difference between the South African 3-month treasury bill rate and the US 3-month treasury bill rate
+
+- infl = the inflation differential, calculated as the difference between the South African consumer price inflation and US consumer price inflation
+
+- goldpr = London Gold price in South African rand
+
+- goldpd = London Gold price in US dollar
+
+The data sources: SARB, IMF International Financial Statistics (IFS); St Louis Fed, FRED Economic Database. 
+
+## Domestic and international developments overtime 
+
 We departure by inspecting selected macroeconomic variables visually in figure 1.
 
 <figure>
@@ -35,16 +54,18 @@ We departure by inspecting selected macroeconomic variables visually in figure 1
 <figcaption aria-hidden="true">Figure 1: Time series for various selected macroeconomic variables, 1979–2022 </figcaption>
 </figure>
 
-Between 1985 and 1994, during the period of economic sanctions, the average economic growth rate was low, with negative growth rates in 1985 and again from 1990 to 1993. As a result, South Africa experienced weaker currency. In the the years 2001/2002 we note currency depreciation of the back of the South African Reserve Bank announcing an intention to close of the net open foreign position, of which contributed to currency depreciation ([South African Reserve Bank 2001](#ref-ReserveBankSA2001)). In the years 2008/2009, there was another depreciation in the currency, which was a factor of global events (specifically from the USA) spilling over into a number of foreign countries including South Africa. In the turn of the 2018 year, the Rand had appreciated strongly to a three-year high with significant signs of recovery in business confidence, following the election of currency president Mr Ramaphosa. Lastly, we note depreciation during the Covid pandemic period given strong uncertainty domestically as well as globally.
+Focusing on the Rand-US dollar exchange rate, discuss some domestic political and economic developments and international events that potentially affected the exchange rate over time. Between 1985 and 1994, during the period of economic sanctions, the average economic growth rate was low, with negative growth rates in 1985 and again from 1990 to 1993. As a result, South Africa experienced weaker currency. In the the years 2001/2002 we note currency depreciation of the back of the South African Reserve Bank announcing an intention to close of the net open foreign position, of which contributed to currency depreciation ([South African Reserve Bank 2001](#ref-ReserveBankSA2001)). In the years 2008/2009, there was another depreciation in the currency, which was a factor of global events (specifically from the USA) spilling over into a number of foreign countries including South Africa. In the turn of the 2018 year, the Rand had appreciated strongly to a three-year high with significant signs of recovery in business confidence, following the election of currency president Mr Ramaphosa. Lastly, we note depreciation during the Covid pandemic period given strong uncertainty domestically as well as globally.
 
-Now we will proceed with applying the Phillips-Perron unit root test, to assess the order of integration of the income differential (lrgdp). The results are shown in figure 2.
+## Order of intergration
+
+Now we will proceed with applying the Phillips-Perron unit root test, to assess the order of integration of the income differential (lrgdp). A variable with one as the order of integration will indicate that the variable is non-stationary; whereas, order zero implies that the variable is stationary. The results are shown in figure 2.
 
 <figure>
 <img src="/VECM/q3.png" alt="Figure 2: Phillips-Perron unit root test " />
 <figcaption aria-hidden="true">Figure 2: Phillips-Perron unit root test </figcaption>
 </figure>
 
-Now we will proceed with applying the Elliott-Rothenberg-Stock Point-Optimal unit root test, to assess the order of integration of the inflation differential (infl). The results are shown in figure 3.
+Furthermore, we apply the Elliott-Rothenberg-Stock Point-Optimal unit root test, similarly to assess the order of integration of the inflation differential (infl). The results are shown in figure 3.
 
 <figure>
 <img src="/VECM/q2.png" alt="Figure 3: Elliott-Rothenberg-Stock Point-Optimal unit root test " />
@@ -58,18 +79,19 @@ Based on the unit root test for the income differential as well as the inflation
 <figcaption aria-hidden="true">Figure 4: Summary of univariate characteristics </figcaption>
 </figure>
 
-In this section we desire to test for cointegration. For this, we start by estimating a reduced form vector autoregressive (VAR) model. The existence of cointegration implies that we may proceed to estimate a vector error correction model (VECM).
+## Testing for cointegrating 
 
-Here we estimate a reduced form VAR. Furthermore, we allow for four lags and perform a lag selection test. The results from the lag selection test are shown in figure 5.
+We start by estimating a reduced form vector autoregressive (VAR) model. The existence of cointegration implies that we may proceed to estimate a vector error correction model (VECM). Here we estimate a reduced form VAR. Furthermore, we allow for four lags and perform a lag selection test. The results from the lag selection test are shown in figure 5.
 
 <figure>
 <img src="/VECM/q6.png" alt="Figure 5: Lag selection test " />
 <figcaption aria-hidden="true">Figure 5: Lag selection test </figcaption>
 </figure>
 
-From figure 5, we will select the lag length of two, which is in agreement with the majority of the selection criteria that is the LogL, LR as well as the HQ. Moreover, we favour the longer lag selection in order to avoid serial correlation which could be present when selecting lag length of one suggested by the SIC, and on the other hand, we avoid issues of multicollinearity with selecting lag length of three proposed by the AIC.
+From figure 5, we will select the lag length of two, which is in agreement with the majority of the selection criteria that is the LogL, LR as well as the HQ. Moreover, we favour the longer lag selection in order to avoid serial correlation which could be present when selecting lag length of one suggested by the SIC, and on the other hand, we avoid issues of multicollinearity (correlation among independent variables in the model) with selecting lag length of three proposed by the AIC.
 
-The multivariate cointegration test was an offspring from shortcomings of the Engle-Granger approach. The extension of the multivariate case is, due to the fact that, it is possible for there to be more than two cointegrating vectors. In other words, for n the number of the variables exceeding two in the model, there might form several equilibrium relationships which govern the joint evolution of all the variables. Johansen framework helps overcome the shortcoming. An advantage of this approach is, if there is only one cointegrating relationship rather than two, with the multiple equation approach we can all three differing speeds of adjustment α<sub>11</sub> α<sub>21</sub> α<sub>31</sub>. In that case, α<sub>21</sub> α<sub>31</sub> without loss of generality. Moreover, the Johansen procedure estimates the rank of the cointegration matrix and provides eigenvectors and eigenvalues, from which cointegration relationships can be derived. Overall, there are different tests within the Johansen procedure, such as the Trace test and the Maximum Eigenvalue test, which help determine the number of cointegrating relationships.
+Before estimating the standard or reduced form VAR by conducting the multivariate cointegration test, we briefly discuss what a cointegration test in the multivariate Johansen framework entails. The multivariate cointegration test was an offspring from shortcomings of the Engle-Granger approach. The extension of the multivariate case is, due to the fact that, it is possible for there to be more than two cointegrating vectors. In other words, for n the number of the variables exceeding two in the model, there might form several equilibrium relationships which govern the joint evolution of all the variables. Johansen framework helps overcome the shortcoming. An advantage of this approach is, if there is only one cointegrating relationship rather than two, with the multiple equation approach we can all three differing speeds of adjustment α<sub>11</sub> α<sub>21</sub> α<sub>31</sub>. In that case, α<sub>21</sub> α<sub>31</sub> without loss of generality. Moreover, the Johansen procedure estimates the rank of the cointegration matrix and provides eigenvectors and eigenvalues, from which cointegration relationships can be derived. Overall, there are different tests within the Johansen procedure, such as the Trace test and the Maximum Eigenvalue test, which help determine the number of cointegrating relationships. Overall in the multivariate framework, we are searching for long-term equilibrium
+relationships based on economic theory. 
 
 According to Asteriou and Hall ([2015](#ref-asteriou2015applied)), we may summarize the five deterministic trend cases as follows:
 
@@ -96,7 +118,7 @@ We will preferably apply model 2, since it assumes that the data has stochastic 
 <figcaption aria-hidden="true">Figure 6: Number of cointegrating relations by model </figcaption>
 </figure>
 
-In this section we perform a unrestricted cointegration rank test.
+We now perform an unrestricted cointegration rank test.
 
   
 H<sub>o</sub>: Number of cointegrating vectors is at most equal to 0  
@@ -119,7 +141,9 @@ However, for the trace test defining our null hypothesis for at most 1 cointegra
 <figcaption aria-hidden="true">Figure 7: Unrestricted Cointegration Rank Test </figcaption>
 </figure>
 
-In this section we build the vector error correction model (VECM). The results may be seen in figure 8.
+## Estimating a VECM 
+
+In this section we build the vector error correction model (VECM). The long run variables which are endogenous the model are spot nominal bilateral rand-US dollar exchange rate, income differential and the broad money differential. Subsequently, exogenous regressors are added to the model to further explain and contribute to the short-run dynamic adjustment back to equilibrium after a shock shifts the system in disequilibrium. The theoretical short-run determinants are interest rate differential and inflation differential. In addition, gold price in South African Rand is chosen over the price in US Dollar since it has the highest pairwise correlation coefficient with the series of the spot nominal bilateral rand-US dollar exchange rate. Lastly, dummy variables to account for structural breaks due to domestic economic and political developments and global international events are included in the model. The results may be seen in figure 8.
 
 <figure>
 <img src="/VECM/q9.png" alt="Figure 8: Vector Error Correction Estimates " />
@@ -130,20 +154,24 @@ The long run equilibrium relationship for a VAR(2) model is given in equation 2 
 
 log(RD) = 3.735 + 0.492log(M3) - 2.309log(RGDP)
 
-The interpretation of our results are, 1% rise in the broad money (M3) differential differential will correspond to a 0.492% rise in the spot nominal bilateral rand-US dollar exchange rate, holding all other factors constant. Furthermore, a 1% in the income differential, will translate in a 2.309% fall in the spot nominal bilateral rand-US dollar exchange rate, holding all other factors constant.
+The interpretation of our results are, a 1% rise in the broad money (M3) differential between SA and the US will correspond to a 0.492% rise in the spot nominal bilateral rand-US dollar exchange rate, holding all other factors constant. Furthermore, a 1% in the income differential, will translate in a 2.309% fall in the spot nominal bilateral rand-US dollar exchange rate, holding all other factors constant.
 
-The error correction mechanism (speed of adjustment parameter) is α = -0.435 with t-value = -6.666. Since, \|t-value\| = \|-6.666\| \> 1.96, it is statistically and significantly different from zero. In other words, an exogenous shock would return the system back to equilibrium, with the speed of adjustment being moderate.
+The error correction mechanism (speed of adjustment parameter) is α = -0.435 with t-value = -6.666. Since, \|t-value\| = \|-6.666\| \> 1.96, it is statistically and significantly different from zero. In other words, an exogenous shock would return the system back to equilibrium, with the speed of adjustment being moderate. Hence, 44% of disequilibrium will be corrected in the first period after a shock that leaves the system in a position of disequilibrium. Disequilibrium refers to either an over or undervaluation of the currency. Where undervaluation (positive disequilibrium) refers to the currency being weaker than suggested by theoretical fundamentals, on the other hand, overvaluation is a negative disequilibrium. 
+
+## Effects of an increase in commidity prices on SA export revenue, economic growth and currency
 
 A few nations which have been labelled to have commodity currency’s are: Australia, New Zealand, Canada as well as South Africa. In the case of South Africa, the multiplier effect of an increase in commodity prices otherwise seen during commodity cycle boom phases, tend to filter into higher export revenue, strength in the currency as well as economic growth. In phases of commodity cycle booms or peaks, there competitive advantage that commodity currency nations receive allows them to benefit from higher export revenue, owing to favourable the favourable commodity prices ([Clements and Fry 2008](#ref-clements2008commodity)). This translates into balancing of trade deficits and in some cases a resulting trade surplus for the respective nation. Intentional investors are likely to be more supportive of a nation that produces trade surpluses as in some cases this may reduce the respective nation’s need to finance pre-existing or even new debt through foreign borrowing at an unfavourable rate. Given the increased export revenues, a favourable perception of foreign investors in combination with a trade surpluses, the currency is likely to appreciate during that period as well. Moreover, the different mechanisms acting in favour of the respective nation would boost government income bigger than expected tax windfalls which translates to overall higher than expected economic growth. However, in the commodity cycle what usually follows after a *peak* is a *trough* and hence this may notably have a negative and reverse effect on the outcomes mentioned above.
 
-We mow proceed with post VECM estimation diagnostic testing for violations of the CRLM assumptions to test for the presence of serial correlation.
+## Diagnostic testing
+
+We proceed with post VECM estimation diagnostic testing for violations of the classical linear regression model assumptions to test for the presence of serial correlation.
 
 <figure>
 <img src="/VECM/q13_1.png" alt="Figure 9: LM test for serial correlation " />
 <figcaption aria-hidden="true">Figure 9: LM test for serial correlation </figcaption>
 </figure>
 
-In figure 9,the Edgeworth expansion corrected likelihood ratio statistic results indicate that the LR test statistic for 1 and 2 lags are 4.125 and 15.388 respectively. Furthermore, the p-values are 0.9030 and 0.6352 which exceed any conventional levels of significance[^1]. Hence, based on this evidence, we fail to reject the null hypothesis that there is no serial correlation at lags 1 to 2. In other words, we conclude that there is no serial correlation at lags 1 to 2.
+In figure 9, the Edgeworth expansion corrected likelihood ratio statistic results indicate that the LR test statistic for 1 and 2 lags are 4.125 and 15.388 respectively. Furthermore, the p-values are 0.9030 and 0.6352 which exceed any conventional levels of significance[^1]. Hence, based on this evidence, we fail to reject the null hypothesis that there is no serial correlation at lags 1 to 2. In other words, we conclude that there is no serial correlation at lags 1 to 2.
 
 Next we provide an alternative test on the residuals for serial correlation. Namely, the white test for heteroscedasticity with no cross terms.
 
@@ -154,21 +182,23 @@ Next we provide an alternative test on the residuals for serial correlation. Nam
 
 In figure 10, the reported χ<sub>138</sub> <sup>2</sup> = 135.826 with p-value of 0.5364 which also which exceeds any conventional levels of significance respectively. Hence, we fail to reject the null hypothesis that the residuals is homoskedastic (constant) across all independent variables. Thus, we report that that there is no strong indication of heteroskedasticity detected in the data
 
-In this section we show a graphical comparison between the actual exchange rate value **RD** which is the line in blue and the fitted/estimated (baseline) value which is the line in orange for the period 1979 to 2022, see figure 11.
+## Model fit
+
+In this section we show a graphical comparison between the actual exchange rate value of the spot nominal bilateral rand-US dollar exchange rate which is the line in blue and the fitted/estimated (baseline) value which is the line in orange for the period 1979 to 2022, see figure 11.
 
 <figure>
 <img src="/VECM/q15.png" alt="Figure 11: Model fit for the spot nominal bilateral rand-US dollar exchange rate " />
 <figcaption aria-hidden="true">Figure 11: Model fit for the spot nominal bilateral rand-US dollar exchange rate </figcaption>
 </figure>
 
-We now apply a scenario to our VECM model to see how much of a role the commodity price variable played. We exclude in our VECM and illustrate this in figure 12.
+We now apply a scenario to our VECM model to see how much of a role the commodity (gold) price variable played. As a result, we exclude this variable in our VECM and illustrate the corresponding results in figure 12.
 
 <figure>
 <img src="/VECM/q16.png" alt="Figure 12: Model fit for scenario to the spot nominal bilateral rand-US dollar exchange rate " />
 <figcaption aria-hidden="true">Figure 12: Model fit for scenario to the spot nominal bilateral rand-US dollar exchange rate </figcaption>
 </figure>
 
-We find in figure 12 that nearing the end of our sample period, the model over-predicts then under-predicts over time spans. The first instance of this is in 2004 where the VECM is over-predicting then during the Global Financial Crises there is an under-prediction. From the year 2011, the model does well in matching the actual data. However, post 2015 there is spirals of under-predicting then over-predicting once more. This highlights how commodity prices does indeed play a significant role in improving the fit of our model.
+We find in figure 12 that nearing the end of our sample period, the model over-predicts then under-predicts over time spans. The first instance of this is in 2004 where the VECM is over-predicting then during the Global Financial Crises there is an under-prediction. From the year 2011, the model does well in matching the actual data. However, post 2015 there is spirals of under-predicting then over-predicting once more. This highlights how commodity prices does indeed play a significant role in improving the fit of our model. Thus, the overall fit of the model is better when the commodity price variable is included in the model specification, as seen in figure 11.  
 
 # References
 
