@@ -1,7 +1,7 @@
 ---
 title: "Hello R Markdown"
 author: "Frida Gomam"
-date: 2023-12-01T21:13:14-05:00
+date: "2023-12-01T00:00:00Z"
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
 ---
