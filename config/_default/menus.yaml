@@ -9,7 +9,7 @@ main:
     weight: 10
   - name: Working Papers
     url: '#featured'
-    weight: 0
+    weight: 30
   - name: Projects
     url: '#projects'
     weight: 50
