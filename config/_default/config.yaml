@@ -73,3 +73,6 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+params:
+  branding: false
+
