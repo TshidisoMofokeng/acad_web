@@ -1,5 +1,6 @@
 ---
-bio: Research interests include building econometric models in R and SAS as well short research notes on monetary and fiscal developments on the international economies. 
+bio: Research interests include building econometric models in R and SAS as well short
+  research notes on monetary and fiscal developments on global economies.
 education:
   courses:
   - course: BComHons in Econometrics (cum laude)
@@ -12,7 +13,7 @@ education:
     institution: University of Pretoria
     year: 2022
 first_name: Tshidiso
-highlight_name: true
+highlight_name: yes
 interests:
 - Macroeconomic modelling
 - R programming
@@ -28,13 +29,13 @@ social:
   link: mailto:tshidiso.b.m@gmail.com
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/tshidiso-mofokeng-0562861b4/
+  link: "https://www.linkedin.com/in/tshidiso-mofokeng-0562861b4/"
 - icon: instagram
   icon_pack: fab
   url: https://www.instagram.com/tshidis_o/
 status:
   icon: ☕️
-superuser: true
+superuser: yes
 ---
 
 Tshidiso is an aspiring economist who currently holds an undergraduate and honours degree at the University of Pretoria in Econometrics. He completed a 10 week exchange student program at Fordham University in Emerging Markets and Country Risk Analysis at New York, USA. He is currently a trainee economist at the Bureau for Economic Research (BER) where he will gain experience in all aspects of business orientated economic analysis. In part, he will assist with the BER's survey analysis and contribute to the BER Weekly Review newsletter, as well as gain further experience in econometric modelling and forecasting.  
