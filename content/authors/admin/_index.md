@@ -31,12 +31,11 @@ social:
   link: https://www.linkedin.com/in/tshidiso-mofokeng-0562861b4/
 - icon: instagram
   icon_pack: fab
-  name: Follow
   url: https://www.instagram.com/tshidis_o/
 status:
   icon: ☕️
 superuser: true
 ---
 
-Tshidiso is an aspiring economist who currently holds an undergraduate and honours degree at the University of Pretoria in BCom Econometrics. He completed a 10 week exchange student program at Fordham University in Emerging Markets and Country Risk Analysis within the field of International Political Economy & Development in New York, United States of America. He is currently a trainee economist at the Bureau for Economic Research (BER) where he will gain experience in all aspects of business orientated economic analysis. In part he will assist with the BER's survey analysis and contribute to the BER Weekly Review newsletter, as well as gain further experience in econometric modelling and forecasting.  
+Tshidiso is an aspiring economist who currently holds an undergraduate and honours degree at the University of Pretoria in Econometrics. He completed a 10 week exchange student program at Fordham University in Emerging Markets and Country Risk Analysis at New York, USA. He is currently a trainee economist at the Bureau for Economic Research (BER) where he will gain experience in all aspects of business orientated economic analysis. In part, he will assist with the BER's survey analysis and contribute to the BER Weekly Review newsletter, as well as gain further experience in econometric modelling and forecasting.  
 {style="text-align: justify;"}
