@@ -14,7 +14,7 @@ main:
     url: '#projects'
     weight: 50
   - name: CV
-    url: uploads/MOFOKENG_CV.pdf #spell CV and not CVV
+    url: uploads/MOFOKENG_CVV.pdf #spell CV and not CVV
     weight: 50
   - name: Projects
     url: '/project'

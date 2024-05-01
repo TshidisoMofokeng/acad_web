@@ -11,18 +11,18 @@ The 2024 Budget offers refinement on the fiscal outlook supported by the Gold an
 
 ## Macroeconomic overview 
 
-**Table 1 summarizes the revised estimates for key macroeconomic variables and provides a forecast over the medium-term, slightly different than initially presented in the MTBPS. Nominal GDP growth slips by 0.2 percentage points (% pts) in 2025, leading to a slightly lower average of 6.0% in the Budget review, relative to 6.1% in the MTBPS.** Owing to the importance of nominal GDP for government revenue, still hot inflation as well as lower exports might explain this. Indeed, exports is slightly down in 2025. Consumer inflation on average over the medium-term is unchanged. Despite real GDP estimated to be 0.2% pts lower for 2023, the average over the forecast period is higher, at 1.6% on average. In part, coming from a 1.3% upward revision for 2024. Notably, government consumption over the MTEF, less negative on average than projected in the November MTBPS. The rise in government consumption from -3.2% in the MTBPS to -0.7% in the Budget Review, predominately is explained by wage bill pressures in labour intensive departments (more on this in expenditure section). Remaining macroeconomic variables either remained unchanged or marginally improved for the forecast period. 
+**Table 1 summarizes the revised estimates for key macroeconomic variables and provides a forecast over the medium-term, slightly different than initially presented in the MTBPS. Nominal GDP growth slips by 0.2 percentage points (% pts) in 2025, leading to a slightly lower average of 6.0% in the Budget Review, relative to 6.1% in the MTBPS.** Owing to the importance of nominal GDP for government revenue, still hot inflation as well as lower exports might explain this. Indeed, exports is slightly down in 2025. Consumer inflation on average over the medium-term is unchanged. Despite real GDP estimated to be 0.2% pts lower for 2023, the average over the forecast period is higher, at 1.6% on average. In part, coming from a 1.3% upward revision for 2024. Notably, government consumption over the MTEF, less negative on average than projected in the November MTBPS. The rise in government consumption from -3.2% in the MTBPS to -0.7% in the Budget Review, predominately is explained by wage bill pressures in labour intensive departments (more on this in expenditure section). Remaining macroeconomic variables either remained unchanged or marginally improved for the forecast period. 
 
 {{< table path="results1.csv" header="true" caption="Table 1: Medium-term budget framework revisions" >}}
 
 ### Structural reforms offer glimmers of economic growth boost
 
 Much of the factors that continuously weigh on South Africa’s growth outlook are structural impediments. Treasury has set out several reforms (some having been proposed in previous Budgets) to fast track the progress. This includes:
- - Energy sector reform, which involves unbundling Eskom into generation, transmission and distribution firms which will increase the competitiveness in electricity market and promote long-term energy security. 
- - For generation capacity, registrations to produce electricity including installation of solar is steadily increasing. Lowering of barriers is crowding in more private investment with 6000 megawatts of large-scale projects worth over R100 billion, which will become operational in the medium-term. 
- - For ports, April 2024 will see the finalisation of a private public partnership aimed at increasing capacity at the Pier 2 Durban Container Terminal.
- - Similarly, freight logistics will also welcome third party access by May 2024, which offer improvements and increase capacity. 
- - Lastly for telecommunications, over R40 billion investment will be attracted following the approval of a policy that aims to improve spectrum availability and lower barriers by promoting competition. 
+ - **Energy sector reform**, which involves unbundling Eskom into generation, transmission and distribution firms which will increase the competitiveness in electricity market and promote long-term energy security. 
+ - For **generation capacity**, registrations to produce electricity including installation of solar is steadily increasing. Lowering of barriers is crowding in more private investment with 6000 megawatts of large-scale projects worth over R100 billion, which will become operational in the medium-term. 
+ - For **ports**, April 2024 will see the finalisation of a private public partnership aimed at increasing capacity at the Pier 2 Durban Container Terminal.
+ - Similarly, **freight logistics** will also welcome third party access by May 2024, which offer improvements and increase capacity. 
+ - Lastly for **telecommunications**, over R40 billion investment will be attracted following the approval of a policy that aims to improve spectrum availability and lower barriers by promoting competition. 
 
 ## Fiscal outlook
 
