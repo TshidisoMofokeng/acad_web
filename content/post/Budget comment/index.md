@@ -1,13 +1,19 @@
 ---
-date: "2024-05-01T00:00:00Z"
+title: "Budget Review 2024 comment"
 image:
-  caption: 'Image credit: [**Sapvia**](https://sapvia.co.za/budget-review-2024/)'
+  caption: "Image credit: [**Sapvia**](https://sapvia.co.za/budget-review-2024/)"
   placement: 2
-math: true
-title: Budget Review 2024 comment
+date: "2024-05-01T00:00:00Z"
+math: yes
 ---
 
-Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.
+The 2024 Budget offers refinement on the fiscal outlook supported by the Gold and Foreign Exchange Contingency Reserve Account (GFECRA) and also includes detail on two proposed long-term economic reforms aimed at boosting tax revenue. Consultation on ‘fiscal anchors’ being tabled will be important to maintain the better-than-expected debt trajectory in comparison to the November Medium Term Budget Policy Statement (MTBPS). Mounting expenditure pressures, on the other hand, from an increasing wage bill have called for re-prioritisation of where funding is channeled which over the medium-term expenditure framework (MTEF) pose a risk. 
+
+## Macroeconomic overview 
+
+**Table 1 summarizes the revised estimates for key macroeconomic variables and provides a forecast over the medium-term, slightly different than initially presented in the MTBPS. Nominal GDP growth slips by 0.2 percentage points (% pts) in 2025, leading to a slightly lower average of 6.0% in the Budget review, relative to 6.1% in the MTBPS.** Owing to the importance of nominal GDP for government revenue, still hot inflation as well as lower exports might explain this. Indeed, exports is slightly down in 2025. Consumer inflation on average over the medium-term is unchanged. Despite real GDP estimated to be 0.2% pts lower for 2023, the average over the forecast period is higher, at 1.6% on average. In part, coming from a 1.3% upward revision for 2024. Notably, government consumption over the MTEF, less negative on average than projected in the November MTBPS. The rise in government consumption from -3.2% in the MTBPS to -0.7% in the Budget Review, predominately is explained by wage bill pressures in labour intensive departments (more on this in expenditure section). Remaining macroeconomic variables either remained unchanged or marginally improved for the forecast period. 
+
+{{< table path="results1.csv" header="true" caption="Table 1: Medium-term budget framework revisions" >}}
 
 **Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.**
 
