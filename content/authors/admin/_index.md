@@ -1,9 +1,8 @@
 ---
-bio: Research interests include building econometric models in R as well as macroeconomic modelling. 
-  matter.
+bio: Research interests include building econometric models in R and SAS as well short research notes on monetary and fiscal developments on the international economies. 
 education:
   courses:
-  - course: BComHons in Econometrics (in progress)
+  - course: BComHons in Econometrics (cum laude)
     institution: University of Pretoria
     year: 2023
   - course: Emerging Markets and Country Risk Analysis
@@ -17,13 +16,12 @@ highlight_name: true
 interests:
 - Macroeconomic modelling
 - R programming
-- Building Econometric models
 last_name: Mofokeng
 name_pronunciation: Tshidiso Mofokeng
 organizations:
-- name: University of Pretoria
-  url: https://www.up.ac.za/economics
-role: Student at University of Pretoria
+- name: Bureau for Economic Research
+  url: https://www.ber.ac.za/
+role: Trainee  Economist
 social:
 - icon: envelope
   icon_pack: fas
@@ -40,5 +38,5 @@ status:
 superuser: true
 ---
 
-Tshidiso is an aspiring economist who currently holds an undergraduate degree at the University of Pretoria in BCom Econometrics. He has also recently completed a 10 week exchange student program at Fordham University in Emerging Markets and Country Risk Analysis within the field of International Political Economy & Development in New York.
+Tshidiso is an aspiring economist who currently holds an undergraduate and honours degree at the University of Pretoria in BCom Econometrics. He completed a 10 week exchange student program at Fordham University in Emerging Markets and Country Risk Analysis within the field of International Political Economy & Development in New York, United States of America. He is currently a trainee economist at the Bureau for Economic Research (BER) where he will gain experience in all aspects of business orientated economic analysis. In part he will assist with the BER's survey analysis and contribute to the BER Weekly Review newsletter, as well as gain further experience in econometric modelling and forecasting.  
 {style="text-align: justify;"}
